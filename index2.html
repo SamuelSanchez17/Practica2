@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Practica 2 SSG</title>
+    <link rel="stylesheet" href="estilos.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="principal.js"></script>
+    
+</head>
+<body>
+
+    <h1>Practica 2-RFC</h1>
+
+    <div class = "rfc">
+
+        <label>Nombre: </label><br>
+        <input id="name" type="text"><br><br>
+
+        <label>Apellido Paterno: </label><br>
+        <input id="apPat" type="text"><br><br>
+
+        <label>Apellido Materno: </label><br>
+        <input id="apMat" type="text"><br><br>
+
+        <label>Fecha nacimiento: </label><br>
+        <input id="fecha" type="date"><br><br>
+
+        <button id="btnRFC">Generar RFC</button><br><br>
+
+        
+        <label>RFC: </label><br>
+        <input id="rfc" type="text" readonly><br><br>
+    </div>
+
+
+    <br><h1>AJAX-API REST</h1><br>
+
+    <div class = "api">
+
+        <input id ="user" type="text">
+        <button id="btnAPI">Consultar API</button><br><br>
+
+        <div class = "result">
+
+            <p><strong>Nombre:</strong> <span id="nombreAPI"></span></p>
+            <p><strong>Email:</strong> <span id="emailAPI"></span></p>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
